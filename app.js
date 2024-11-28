@@ -1,4 +1,4 @@
-function criaCartao(categoria, pergunta, resposta) {
+function criaCartao(categoria, pergunta, imagem, resposta) {
     let cartao = document.createElement('article')
     cartao.className = 'cartao'
     cartao.innerHTML = `
@@ -6,6 +6,7 @@ function criaCartao(categoria, pergunta, resposta) {
                     <h3>${categoria}</h3>
                     <div class="cartao__conteudo__pergunta">
                         <p>${pergunta}</p>
+                        <img src="assets/img/${imagem}">
                     </div>
                     <div class="cartao__conteudo__resposta">
                         <p>${resposta}</p>
