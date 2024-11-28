@@ -33,10 +33,7 @@ body {
 }
 .cartao__conteudo h3 {
   color: var(--text-color);
-  border-top: 1px dashed red;
-  border-left: 1px groove green;
-  border-right: 1px dotted blue;
-  border-bottom: 1px solid yellow;
+  border: 1px solid var(--text-color);
   text-align: left;
   padding: 0.5rem;
   position: absolute;
